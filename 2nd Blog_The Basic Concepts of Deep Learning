@@ -1,0 +1,18 @@
+The Basic Concepts of Deep Learning
+The Definition of a Neural Network
+A neural network is a computational model comprising interconnected neurons. Neurons receive and send signals through weighted connections, with biases adjusting input. Each neuron computes a linear combination of inputs, applies a nonlinear activation function, and passes the output to the next layer. Neural networks consist of input, hidden, and output layers, with hidden layers extracting features and performing intermediate computations. The architecture of a neural network is determined by the number of layers and neurons in each layer. [1, 2]
+Some Common Types of Neural Networks
+There are various types of neural networks designed for specific purposes and applications. Some common types include:
+1. Fully Connected Neural Network (FCNN): Each neuron in one layer is connected to every neuron in the next layer. Used for general-purpose tasks like classification and regression. [3]
+2. Convolutional Neural Network (CNN): Utilises convolutional layers with filters or kernels to extract local and spatial features from data like images and videos. Often employed for image recognition, object detection, and face recognition. [3, 4]
+3. Recurrent Neural Network (RNN): Features recurrent connections, allowing neurons to maintain memory of past information. Ideal for capturing temporal and sequential features from speech and text. Applied in tasks like speech recognition, natural language processing, and machine translation. [3, 4]
+4. Long Short-Term Memory (LSTM): A specialised RNN type that employs gates to manage information flow and overcome the vanishing gradient problem. Effective in learning long-term dependencies and used for tasks such as text generation, question answering, and sentiment analysis. [3-5]
+5. Generative Adversarial Network (GAN): Comprises a generator and a discriminator sub-network. The generator generates fake data resembling real data, while the discriminator aims to differentiate between real and fake data. GANs compete to improve each other's performance and are used in tasks like data generation and synthesis. [5, 6]
+These different neural network types offer versatility and are suitable for a wide range of applications, each with its own strengths and capabilities.
+
+[1] W3Schools. “AI - Neural Networks.” Available: https://www.w3schools.com/ai/ai_neural_networks.asp.
+[2] Western Governors University. “Neural Networks & Deep Learning Explained.” Available: https://www.wgu.edu/blog/neural-networks-deep-learning-explained2003.html.
+[3] Wikipedia. “Types of Artificial Neural Networks.” Available: https://en.wikipedia.org/wiki/Types_of_artificial_neural_networks.
+[4] UpGrad. “Types of Neural Networks.” Available: https://www.upgrad.com/blog/types-of-neural-networks/.
+[5] Educba. “Types of Neural Networks.” Available: https://www.educba.com/types-of-neural-networks/.
+[6] Towards Data Science. “Four Common Types of Neural Network Layers.” Available: https://towardsdatascience.com/four-common-types-of-neural-network-layers-c0d3bb2a966c.
